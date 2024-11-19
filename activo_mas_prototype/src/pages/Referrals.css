@@ -1,0 +1,93 @@
+/* Contenedor principal */
+.referrals-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .referrals-description {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 2rem;
+  }
+  
+  /* Tabla */
+  .referrals-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+  }
+  
+  .referrals-table th,
+  .referrals-table td {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .referrals-table thead {
+    background: #0056b3;
+    color: #ffffff;
+  }
+  
+  .referrals-table tr:nth-child(even) {
+    background: #f7f9fc;
+  }
+  
+  .referrals-table tr:hover {
+    background: #eaf3fc;
+  }
+  
+  /* Botones */
+  .delete-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background: #d9534f;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #c9302c;
+  }
+  
+  .add-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #0056b3;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .add-btn:hover {
+    background: #003f8a;
+  }
+  
+  /* Formulario */
+  .referrals-form {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .referral-input {
+    margin: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: calc(50% - 1rem);
+  }
+  

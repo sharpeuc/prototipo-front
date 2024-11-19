@@ -1,0 +1,88 @@
+.property-management {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333333;
+    font-size: 1.8rem;
+  }
+  
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+  }
+  
+  .property-table th,
+  .property-table td {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .property-table thead {
+    background: #0056b3;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .property-table tr:nth-child(even) {
+    background: #f7f9fc;
+  }
+  
+  .property-table tr:hover {
+    background: #eaf3fc;
+  }
+  
+  .status {
+    font-weight: bold;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .status.available {
+    background: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .status.occupied {
+    background: #f2dede;
+    color: #a94442;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-btn {
+    background: #0056b3;
+    color: #ffffff;
+  }
+  
+  .edit-btn:hover {
+    background: #003f8a;
+  }
+  
+  .delete-btn {
+    background: #d9534f;
+    color: #ffffff;
+  }
+  
+  .delete-btn:hover {
+    background: #c9302c;
+  }
+  

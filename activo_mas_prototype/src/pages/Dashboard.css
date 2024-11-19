@@ -1,0 +1,106 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.dashboard-sidebar {
+    width: 250px;
+    background: #203a43;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el logo horizontalmente */
+}
+
+.dashboard-logo {
+    width: 150px; /* Tamaño del logo */
+    margin-bottom: 1rem; /* Espaciado debajo del logo */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+}
+
+.dashboard-sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Asegura que el menú ocupe todo el ancho */
+    max-height: calc(100vh - 200px); /* Deja espacio para el logo y el botón */
+    overflow-y: auto; /* Permite desplazamiento si los enlaces exceden */
+}
+
+.dashboard-sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0.5rem 0; /* Ajusta el espaciado entre enlaces */
+    display: block;
+    padding: 0.5rem 1rem; /* Espaciado interno para mejor apariencia */
+    border-radius: 4px; /* Bordes redondeados para el hover */
+    text-align: center; /* Centra el texto */
+}
+
+.dashboard-sidebar ul li a:hover {
+    color: #94d2bd;
+    background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente en hover */
+}
+
+.logout-btn {
+    margin-top: auto; /* Asegura que el botón esté al final del menú */
+    padding: 0.5rem 1rem;
+    background: #94d2bd; /* Color llamativo pero suave */
+    color: #203a43; /* Contraste con el fondo */
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: auto; /* Botón ajustado al contenido */
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #ffffff; /* Más claro al pasar el cursor */
+    color: #203a43;
+}
+
+.dashboard-main {
+    flex-grow: 1;
+    padding: 2rem;
+    background: #2c5364;
+    color: #ffffff; /* Cambia el color del texto principal */
+    overflow-y: auto; /* Habilita desplazamiento si el contenido es extenso */
+}
+
+.dashboard-main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff; /* Título blanco para destacar */
+}
+
+.dashboard-main p {
+    font-size: 1.2rem;
+    color: #cfd8dc; /* Texto del párrafo en un tono claro */
+    margin-top: 1rem;
+    line-height: 1.5; /* Mejora la legibilidad */
+    text-align: justify; /* Opcional: Justifica el texto */
+}
+
+/* Footer Styles */
+.dashboard-footer {
+    background: #203a43;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: auto; /* Permite que el footer esté al final */
+}
+
+.dashboard-footer h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #94d2bd;
+}
+
+.dashboard-footer p {
+    margin: 0.2rem 0;
+    line-height: 1.4;
+}

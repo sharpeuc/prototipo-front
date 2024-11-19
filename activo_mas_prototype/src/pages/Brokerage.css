@@ -1,0 +1,112 @@
+.brokerage-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .brokerage-description {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 2rem;
+  }
+  
+  .brokerage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .brokerage-table th,
+  .brokerage-table td {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .brokerage-table thead {
+    background: #0056b3;
+    color: #ffffff;
+  }
+  
+  .brokerage-table tr:nth-child(even) {
+    background: #f7f9fc;
+  }
+  
+  .brokerage-table tr:hover {
+    background: #eaf3fc;
+  }
+  
+  .status-on-time {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-late {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background: #d9534f;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #c9302c;
+  }
+  
+  .brokerage-form {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .form-input {
+    margin: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: calc(33% - 1rem);
+  }
+  
+  .form-select {
+    margin: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: calc(33% - 1rem);
+  }
+  
+  .add-btn {
+    padding: 0.8rem 1.5rem;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background: #003f8a;
+  }
+  

@@ -1,0 +1,44 @@
+/* Colores base */
+:root {
+    --primary-bg: #f7f9fc; /* Fondo claro */
+    --secondary-bg: #ffffff; /* Fondo blanco */
+    --primary-color: #0056b3; /* Azul principal */
+    --secondary-color: #23a455; /* Verde para acciones */
+    --text-color: #333333; /* Texto oscuro */
+    --text-muted: #666666; /* Texto claro */
+    --border-color: #dddddd; /* Bordes suaves */
+  }
+  
+  /* Global */
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-bg);
+    color: var(--text-color);
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+    color: var(--text-muted);
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  

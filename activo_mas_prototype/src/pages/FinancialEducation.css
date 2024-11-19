@@ -1,0 +1,16 @@
+.financial-education {
+    padding: 2rem;
+}
+
+.content-cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #94d2bd;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+}
